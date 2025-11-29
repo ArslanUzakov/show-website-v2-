@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shoe Store - Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" id="loginPage">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+  </div>
+
+  <div class="container" id="storePage" style="display:none;">
+    <h2>Welcome to the Shoe Store</h2>
+    <p>You are logged in!</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <div class="container" id="products" style="display:none; margin-top:20px;">
+    <h2>Shoe Collection</h2>
+    <div class="products">
+      <div class="card">
+        <img src="assets/images/airmax.png" />
+        <h3>Nike Air Max</h3>
+        <p class="price">$120</p>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/yeezy.jpg" />
+        <h3>Adidas Yeezy</h3>
+        <p class="price">$220</p>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/jordan4.jpg" />
+        <h3>Jordan Retro 4</h3>
+        <p class="price">$190</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

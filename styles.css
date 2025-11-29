@@ -1,0 +1,10 @@
+
+body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 0; }
+.container { width: 400px; margin: 120px auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+h2 { text-align: center; }
+input { width: 100%; padding: 12px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+button { width: 100%; padding: 12px; background: black; color: white; border: none; border-radius: 5px; cursor: pointer; }
+.products { display:flex; gap:20px; flex-wrap:wrap; justify-content:center; }
+.card { width:180px; background:#fff; padding:10px; border-radius:10px; box-shadow:0 0 5px rgba(0,0,0,0.1); text-align:center; }
+.card img { width:100%; border-radius:10px; }
+.price { font-size:16px; font-weight:bold; }
